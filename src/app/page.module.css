@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .box {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    max-width: 600px; /* 가로 길이를 더 길게 */
+    width: 100%;
+  }
+  
+  .title {
+    margin-bottom: 1.5rem;
+    font-size: 2rem; /* 글자 크기 */
+    font-weight: bold; /* 글자 굵기 */
+  }
+  
+  .tokenName {
+    margin-bottom: 1rem;
+    font-size: 1.5rem; /* 토큰 이름 글자 크기 */
+    font-weight: bold; /* 토큰 이름 글자 굵기 */
+    color: #0070f3; /* 토큰 이름 색상 */
+  }
+  
+  .label {
+    font-size: 1.2rem; /* 글자 크기 */
+    font-weight: bold; /* 글자 굵기 */
+    margin-top: 1rem;
+  }
+  
+  .value {
+    margin-bottom: 1rem; /* label과 value 사이의 간격 조절 */
+    word-wrap: break-word; /* 긴 주소가 박스 밖으로 나가지 않도록 함 */
+  }
+  
+  .content p {
+    margin: 0.5rem 0;
+  }
+  
+  .message {
+    color: #ff0000;
+  }
+  
